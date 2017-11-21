@@ -1,3 +1,4 @@
+// Test
 
 // Load the library for LpDn
 #include "lpDnLib/lpDnLib.h"
@@ -25,6 +26,7 @@ void main(void) {
   // Enable interrupts
   __enable_interrupt();
 
+  // Select your app to run
   runApp0(EXT_UART);
 //  runBme280(EXT_UART);
 
